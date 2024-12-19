@@ -1,7 +1,8 @@
 # Welcome to TuneTube 🎵
 
-TuneTube is a music player platform inspired by the dashboard design of AsmrProg,
-check out the [video on YouTube](https://youtu.be/Fwyo1AqvzM4).
+TuneTube is a music player platform that enhances your listening experience with easy music management.
+
+![Video Report](assets/Tunetube.mp4)
 
 ## Getting Started
 
