@@ -1,0 +1,105 @@
+/* General Backgrounds */
+body {
+  color: #fff;
+  background-color: #121212; /* Dark background for the entire page */
+}
+
+/* Player Section */
+.genres,
+.music-list {
+  background-color: #202026; /* Dark background for the container */
+}
+
+.playlist .genres .header a,
+.playlist .music-list .header a {
+  color: #919191;
+  text-decoration: none;
+}
+.playlist .music-list .header a:hover,
+.playlist .genres .header a:hover {
+  color: #5773ff; /* Change to your desired hover color */
+  text-decoration: none; /* Optionally, you can add an underline or any other style */
+}
+
+.player-section {
+  background-color: #202026; /* Dark background for the container */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  margin-right: 22px;
+  top: 120px;
+  width: 400px;
+  color: white; /* Ensure text is white for visibility */
+}
+
+.player-section img {
+  border-radius: 10px;
+}
+
+.btn-play {
+  color: #121212;
+}
+
+.trending {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.trending .left {
+  flex-grow: 1;
+}
+
+.trending h5 {
+  font-size: 15px;
+  color: white;
+}
+
+.info h2 {
+  font-size: 56px;
+  margin-bottom: 8px;
+}
+
+.info h4,
+.info h5 {
+  display: inline;
+}
+.info h4 {
+  font-size: 17px;
+}
+.trending .info h5 {
+  font-size: 13px;
+  margin-left: 12px !important;
+  color: #919191;
+}
+
+/* Artist below Title */
+.info1 h5 {
+  font-size: 13px;
+  color: #919191;
+}
+
+.trending .buttons {
+  margin-top: 10px;
+}
+
+.trending button {
+  font-size: 1rem;
+  border-radius: 30px;
+  padding: 8px 20px;
+}
+
+.bx.bxs-heart {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.trending img {
+  width: 300px; /* Set the image size */
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}

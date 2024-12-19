@@ -1,0 +1,269 @@
+/* General Body & Background */
+body {
+  background: linear-gradient(#000000, #18181d);
+  color: #ffffff;
+}
+
+/* Main Section */
+.main {
+  background: linear-gradient(#000000, #18181d);
+}
+
+/* Sidebar Styling */
+.sidebar {
+  height: 100vh;
+  background-color: #18181d;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  z-index: 10000;
+}
+
+/* Sidebar Menu Styling */
+.sidebar .menu h5 {
+  color: #919191;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.menu {
+  padding: 5px 36px;
+}
+
+.menu h5 {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu ul li {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.menu ul li i {
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.menu ul li:hover,
+.logo a:hover,
+.menu ul li a:hover {
+  color: #5773ff;
+}
+
+/* Header Styling */
+header {
+  background-color: black;
+  color: #ffffff;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  text-transform: uppercase;
+  color: #919191;
+  margin-left: 15px;
+}
+
+/* Logo Section */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  color: white;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Search Bar Styling */
+.search {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 40%;
+  background-color: #1d1d1d;
+  border: 1px solid #464748;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.search input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+/* Profile Section */
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 18px;
+}
+
+.profile .icon-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+.profile .user {
+  display: flex;
+  align-items: center;
+}
+
+.profile .user .left {
+  display: flex;
+  align-items: center;
+  background: #32323d;
+  padding: 5px;
+  border-radius: 6px 0 0 6px;
+}
+
+.profile .user .left img {
+  width: 30px;
+  height: 30px;
+}
+
+.profile .user .right {
+  background-color: #25252d;
+  border-radius: 0 6px 6px 0;
+  padding: 8px;
+  color: #fff;
+}
+
+/* Modal Styling */
+.modal-content {
+  background-color: #25252d;
+  color: #fff;
+}
+
+.modal-header {
+  background-color: #32323d;
+  border-bottom: 1px solid #464748;
+}
+
+.modal-header .btn-close {
+  color: #fff;
+}
+
+.modal-footer {
+  background-color: #32323d;
+  border-top: 1px solid #464748;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #464748;
+  border: none;
+}
+
+.modal-footer .btn-danger {
+  background-color: #e74c3c;
+  border: none;
+}
+
+/* Hover effects */
+.menu ul li:hover,
+.profile .icon-btn .bxs-bell:hover,
+.profile .icon-btn .bxs-cog:hover,
+.user .logout-btn:hover {
+  color: #5773ff;
+}
+
+.song-row {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 5px;
+  border-radius: 5px;
+}
+.song-row:hover {
+  background-color: #18181d;
+}
+.music-list::-webkit-scrollbar {
+  width: 2px;
+}
+
+.music-list::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+.music-list::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+.music-list-container {
+  background-color: #202026;
+}
+
+/* Dropdown background color */
+.dropdown-menu {
+  padding: 5px 10px;
+  background-color: #202026;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+/* Dropdown item hover effect */
+.dropdown-item:hover {
+  background-color: #18181d;
+  color: white;
+}
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-menu .btn.add-to-favorite {
+  width: 100%;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+.dropdown-menu .add-to-favorite:hover,
+.dropdown-menu .add-to-favorite:focus {
+  background-color: #18181d;
+  color: white;
+  outline: none;
+}
+
+/* Modal custom background */
+.modal-content {
+  color: white;
+  font-size: 20px;
+}
+/* Optional: Customize Modal Size */
+.modal-dialog.modal-sm {
+  max-width: 300px;
+}
+.add-to-favorite i:hover,
+.remove-from-favorite i:hover,
+.bx-dots-vertical-rounded:hover {
+  color: blue !important; /* Change icon color on hover */
+  transform: scale(1.2); /* Slightly enlarge icon on hover */
+}
