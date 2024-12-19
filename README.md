@@ -3,7 +3,7 @@
 TuneTube is a music player platform that enhances your listening experience with easy music management.
 
 Youtube
-[Play video](https://youtu.be/Fwyo1AqvzM4).
+[Play video](https://youtu.be/GUfflkXz6ac).
 
 Assets/Tunetube.mp4
 [Video Report](assets/Tunetube.mp4)
